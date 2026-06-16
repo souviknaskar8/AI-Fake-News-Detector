@@ -1,0 +1,96 @@
+.stApp {
+    background-color: #191020;
+}
+
+h1 {
+    color: #c9a84c;
+    text-align: center;
+}
+
+.stButton > button {
+    background-color: #c9a84c;
+    color: #0d0d1a;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.stButton > button:hover {
+    background-color: #e2c97e;
+    color: #0d0d1a;
+}
+
+/* ── Page Box ── */
+.block-container {
+    background-color: #111128;
+    border: 1px solid #c9a84c;
+    border-radius: 20px;
+    padding: 40px !important;
+    margin-top: 30px;
+    box-shadow: 0 0 30px rgba(201, 168, 76, 0.15);
+}
+
+
+/* ── Main Result Card ── */
+
+.result-card {
+    background: #0f3460;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px 0px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.result-icon {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.result-label {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.result-subtitle {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* ── 3 Metric Cards Row ── */
+.cards-row {
+    display: flex;
+    gap: 16px;
+    margin: 10px 0px 20px 0px;
+}
+
+.metric-card {
+    flex: 1;
+    background: #0f3460;
+    border: 1px solid #1e4d7b;
+    border-radius: 15px;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.metric-icon {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.metric-title {
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.metric-value {
+    font-size: 28px;
+    font-weight: 800;
+}
